@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 2 - Part 3: Portfolio Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Flexbox Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">WebDev Logo</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Flexbox</a></li>
+        <li><a href="grid.html">Grid System</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Grid Container: Main section & Sidebar -->
+  <div class="portfolio-container">
+    <main class="portfolio-main">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>A web application built using Flexbox for adaptive layout and modern CSS features.</p>
+          <button class="btn">View Details</button>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>An interactive gallery project built with CSS Grid system and responsive design.</p>
+          <button class="btn">View Details</button>
+        </div>
+        <div class="project-card">
+          <h3>Project Three</h3>
+          <p>Full-stack dashboard prototype showcasing dynamic data rendering and modern UI.</p>
+          <button class="btn">View Details</button>
+        </div>
+      </div>
+    </main>
+
+    <aside class="portfolio-sidebar">
+      <h2>About Me</h2>
+      <p>Welcome to my student portfolio! Here you can check my recent projects and web layout implementations.</p>
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML5 & CSS3</li>
+        <li>Flexbox & CSS Grid</li>
+        <li>JavaScript</li>
+      </ul>
+    </aside>
+  </div>
+
+  <!-- Page Footer -->
+  <footer class="portfolio-footer">
+    <p>&copy; 2026 Web Development Student Assignment. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
